@@ -49,6 +49,8 @@ From the JCSMS directory, run:
 ```bash
 python Main/main.py
 ```
+> [!WARNING]
+> Windows users should use `py` instead of `python` when running commands in Windows.
 
 ### Main Menu Options
 
@@ -110,24 +112,11 @@ The project includes unit tests to ensure all source code works correctly.
 
 ### Run Test
 ```bash
-python -m unittest Unittests.test_student_class
+python Unittests/test_student_class.py
 ```
-To run a different test simply replace test_student_class with the name of the file the test is in.
-
-### Import Errors
-If you get `ModuleNotFoundError`:
-```python
-# Make sure you're running from the JCSMS directory
-cd JCSMS
-python Main/main.py
-```
-
-### Tests Not Running
-If tests can't find the main module:
-```bash
-# Run from JCSMS directory with -m flag
-python -m unittest Unittests.test_student_class
-```
+To run a different test, replace 'test_student_class' with the name of the file containing the test.
+> [!WARNING]
+> Windows users should use `py` instead of `python` when running commands in Windows.
 
 ## License
 
