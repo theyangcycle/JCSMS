@@ -1,0 +1,144 @@
+I like the way you put comments in your code.
+
+These are my suggestions
+
+1) you can initialize database with few default students so that when we chose option 1) List Students, it will display some names instead of blank output or you can output an
+informational message to console like "No Students Found"
+
+2) Same thing with option 5). you can have some default students in each club or output an informational message
+with option 6, you can provide a sub menu with numbers for each club so that it is easy to enter numbers than to type the whole club name
+
+3)is it possible to take input from up arrow in the menu so that we don't have to type the same number again if needed
+
+4) In this case, you can throw the message "Student not found" after entering name or ID, instead of asking to Choose a club
+Choose an option: 6
+Enter student name or ID: 1000000000000000000000000000000000000000000022222222222222222222222222222
+Choose a club (Science Olympiad, CS Team, Math Team, TSA, Cyberpatriots): Math Team
+Student not found.
+
+5) Not Able to add student to the club if i give the name as 1234
+
+---JCSMS Menu---
+1. List students
+2. Add student
+3. Remove student
+4. List clubs
+5. List students in a club
+6. Add student to a club
+7. Quit
+Choose an option: 2
+Enter student name: 1234
+Student added successfully.
+
+---JCSMS Menu---
+1. List students
+2. Add student
+3. Remove student
+4. List clubs
+5. List students in a club
+6. Add student to a club
+7. Quit
+Choose an option: 1
+1234
+1
+
+---JCSMS Menu---
+1. List students
+2. Add student
+3. Remove student
+4. List clubs
+5. List students in a club
+6. Add student to a club
+7. Quit
+Choose an option: 6
+Enter student name or ID: 1234
+Choose a club (Science Olympiad, CS Team, Math Team, TSA, Cyberpatriots): TSA
+Student not found.
+
+6) i can add if i give name. so you should either restrict input to characters only or take any thing and allow them to be added. 
+
+---JCSMS Menu---
+1. List students
+2. Add student
+3. Remove student
+4. List clubs
+5. List students in a club
+6. Add student to a club
+7. Quit
+Choose an option: 2
+Enter student name: federer
+Student added successfully.
+
+---JCSMS Menu---
+1. List students
+2. Add student
+3. Remove student
+4. List clubs
+5. List students in a club
+6. Add student to a club
+7. Quit
+Choose an option: 6
+Enter student name or ID: federer
+Choose a club (Science Olympiad, CS Team, Math Team, TSA, Cyberpatriots): CS Team
+Student added successfully.
+
+---JCSMS Menu---
+1. List students
+2. Add student
+3. Remove student
+4. List clubs
+5. List students in a club
+6. Add student to a club
+7. Quit
+Choose an option: 5
+Choose a club (Science Olympiad, CS Team, Math Team, TSA, Cyberpatriots): CS Team
+federer
+2
+
+---JCSMS Menu---
+1. List students
+2. Add student
+3. Remove student
+4. List clubs
+5. List students in a club
+
+7) After adding a student and then when we list students, it prints names and also numbers with each name. Those numbers can be removed
+
+---JCSMS Menu---
+1. List students
+2. Add student
+3. Remove student
+4. List clubs
+5. List students in a club
+6. Add student to a club
+7. Quit
+Choose an option: 1
+1234 federer a
+1 2 3
+
+8) if same name is entered, there should be an error saying name already exits and ask to enter with extra characters
+
+---JCSMS Menu---
+1. List students
+2. Add student
+3. Remove student
+4. List clubs
+5. List students in a club
+6. Add student to a club
+7. Quit
+Choose an option: 1
+1234 federer a b c d e f g 2 2 2 2 2 2 2 2 2 2 2 2
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21
+
+9) when unittests are run, it should display the name of the unit tests ran, instead of saying 2 tests.
+
+savula@savula7670l:~/github/JCSMS$ python3 Unittests/test_student_class.py
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+savula@savula7670l:~/github/JCSMS$
+
+10) if possible, you should add unit tests to each menu item
+
