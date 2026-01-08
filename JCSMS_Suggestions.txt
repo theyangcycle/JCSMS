@@ -30,6 +30,7 @@ Choose an option: 2
 Enter student name: 1234
 Student added successfully.
 
+
 ---JCSMS Menu---
 1. List students
 2. Add student
